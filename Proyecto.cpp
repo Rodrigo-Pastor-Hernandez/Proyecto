@@ -321,6 +321,45 @@ do{
 				
 			}while(opcion != 1 && opcion != 2 && opcion != 3 && opcion !=4);
 		
+				cout<<"FELICIADES HAS LOGRADO PASAR A LA TERCERA Y ULTIMA TRAMA DE LA HITORIA"<<endl;
+					
+					do{
+					cout<<"hola introduzca que opcion desea para continuar la hitoria"<<endl;
+					cout<<"1)."<<endl;
+					cout<<"2)."<<endl;
+					cout<<"3)."<<endl;
+					cout<<"4)."<<endl;
+					cout<<"Tienes un total de "<< monedas <<" monedas"<<endl;
+					cout<<"Que deseas hacer?: ";
+					cin>>opcion;
+					
+					switch(opcion)
+						{
+							case 1:
+								cout<<"hola opcion 1"<<endl;	
+								cout<<"Ahora tienes un total de "<< monedas <<" monedas"<<endl;
+							break;
+							case 2:
+									cout<<"hola opcion 2"<<endl;
+									cout<<"Ahora tienes un total de "<< monedas <<" monedas"<<endl;	
+							break;
+							case 3:
+									cout<<"hola opcion 3"<<endl;	
+									cout<<"Ahora tienes un total de "<< monedas <<" monedas"<<endl;	
+							break;
+							case 4:
+								cout<<"Gracias por leer la historia vuela pronto"<<endl;
+								return 0;
+							break;
+							default:
+								cout<<"La opcion que eligio es erronea elija de nuevo porfavor"<<endl;
+							break;
+						}	
+						
+					}while(opcion != 1 && opcion != 2 && opcion != 3 && opcion !=4);
+					
+	cout<<"Fin de la hirtoria gracias por leer"<<endl;
+	
 	return 0;
 	
 }	
