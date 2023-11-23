@@ -4,7 +4,8 @@ using namespace std;
 
 main()
 {
-	int opcion;
+	int opcion=-1;
+	int monedas=150;
 
 do{
 	cout<<"hola introduzca que opcion desea para continuar la hitoria"<<endl;
@@ -13,8 +14,10 @@ do{
 	cout<<"3)."<<endl;
 	cout<<"4)."<<endl;
 	cout<<"5)."<<endl;
-	cout<<"opcion selecionada: ";
+	cout<<"Tienes un total de "<< monedas <<" monedas"<<endl;
+	cout<<"Que deseas hacer?: ";
 	cin>>opcion;
+	
 	switch(opcion)
 		{
 			case 1:
@@ -27,20 +30,22 @@ do{
 					cout<<"2)."<<endl;
 					cout<<"3)."<<endl;
 					cout<<"4)."<<endl;
+					cout<<"Tienes un total de "<< monedas <<" monedas"<<endl;
+					cout<<"Que deseas hacer?:";
 					cin>>opcion;
 						switch(opcion)
 						{
 							case 1:
 								cout<<"hola 1 dentro opcion 1";
-			
+								cout<<"Ahora tienes un total de "<< monedas <<" monedas"<<endl;
 							break;
 							case 2:
 								cout<<"hola 2 dentro opcion 1";
-		
+								cout<<"Ahora tienes un total de "<< monedas <<" monedas"<<endl;
 							break;
 							case 3:
 								cout<<"hola 3 dentro opcion 1";
-								
+								cout<<"Ahora tienes un total de "<< monedas <<" monedas"<<endl;
 							break;
 							case 4:
 								cout<<"Gracias por leer la historia vuela pronto"<<endl;
@@ -63,17 +68,22 @@ do{
 					cout<<"2)."<<endl;
 					cout<<"3)."<<endl;
 					cout<<"4)."<<endl;
+					cout<<"Tienes un total de "<< monedas <<" monedas"<<endl;
+					cout<<"Que deseas hacer?: ";
 					cin>>opcion2;
 						switch(opcion2)
 						{
 							case 1:
 								cout<<"hola 1 dentro opcion 2";
+								cout<<"Ahora tienes un total de "<< monedas <<" monedas"<<endl;
 							break;
 							case 2:
 								cout<<"hola 2 dentro opcion 2";
+								cout<<"Ahora tienes un total de "<< monedas <<" monedas"<<endl;
 								break;
 							case 3:
 								cout<<"hola 3 dentro opcion 2";
+								cout<<"Ahora tienes un total de "<< monedas <<" monedas"<<endl;
 							break;
 							case 4:
 								cout<<"Gracias por leer la historia vuela pronto"<<endl;
@@ -96,17 +106,22 @@ do{
 					cout<<"2)."<<endl;
 					cout<<"3)."<<endl;
 					cout<<"4)."<<endl;
+					cout<<"Tienes un total de "<< monedas <<" monedas"<<endl;
+					cout<<"Que deseas hacer?: ";
 					cin>>opcion3;
 						switch(opcion3)
 						{
 							case 1:
 								cout<<"hola 1 dentro opcion 3";
+								cout<<"Ahora tienes un total de "<< monedas <<" monedas"<<endl;
 							break;
 							case 2:
 								cout<<"hola 2 dentro opcion 3";
+								cout<<"Ahora tienes un total de "<< monedas <<" monedas"<<endl;
 								break;
 							case 3:
 								cout<<"hola 3 dentro opcion 3";
+								cout<<"Ahora tienes un total de "<< monedas <<" monedas"<<endl;
 							break;
 							case 4:
 								cout<<"Gracias por leer la historia vuela pronto"<<endl;
@@ -124,31 +139,36 @@ do{
 					int opcion4;
 					do
 					{
-						cout<<"hola segundo dentro opcion 4"<<endl;
+					cout<<"hola segundo dentro opcion 4"<<endl;
 					cout<<"1)."<<endl;
 					cout<<"2)."<<endl;
 					cout<<"3)."<<endl;
 					cout<<"4)."<<endl;
-						cin>>opcion4;
-							switch(opcion4)
-							{
-								case 1:
-									cout<<"hola 1 dentro opcion 4";
+					cout<<"Tienes un total de "<< monedas <<" monedas"<<endl;
+					cout<<"Que deseas hacer?: ";
+					cin>>opcion4;
+						switch(opcion4)
+						{
+							case 1:
+								cout<<"hola 1 dentro opcion 4";
+								cout<<"Ahora tienes un total de "<< monedas <<" monedas"<<endl;
+							break;
+							case 2:
+								cout<<"hola 2 dentro opcion 4";
+								cout<<"Ahora tienes un total de "<< monedas <<" monedas"<<endl;
 								break;
-								case 2:
-									cout<<"hola 2 dentro opcion 4";
-									break;
-								case 3:
-									cout<<"hola 3 dentro opcion 4";
-								break;
-								case 4:
-									cout<<"Gracias por leer la historia vuela pronto"<<endl;
-									return 0;
-								break;
-								default:
-									cout<<"La opcion que eligio es erronea elija de nuevo porfavor"<<endl;
-								break;
-							}
+							case 3:
+								cout<<"hola 3 dentro opcion 4";
+								cout<<"Ahora tienes un total de "<< monedas <<" monedas"<<endl;
+							break;
+							case 4:
+								cout<<"Gracias por leer la historia vuela pronto"<<endl;
+								return 0;
+							break;
+							default:
+								cout<<"La opcion que eligio es erronea elija de nuevo porfavor"<<endl;
+							break;
+						}
 					}while(opcion4 != 1 && opcion4 != 2 && opcion4 != 3 && opcion4 != 4);
 			break;
 			case 5:
