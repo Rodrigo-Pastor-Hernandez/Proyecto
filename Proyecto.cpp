@@ -80,7 +80,7 @@ main()
 											break;
 										}
 								}while(opcion != 1 && opcion != 2 && opcion != 3 && opcion !=4);
-									
+										
 						break;
 						case 2:
 							int opcion2;
@@ -247,7 +247,13 @@ main()
 						break;	
 					}			
 			}while(opcion != 1 && opcion != 2 && opcion != 3 && opcion !=4 && opcion !=5);
-
+			
+				if (experiencia <= 0)
+				{
+		            cout<<"\nTe quedaste sin experiencia ¡Fin de la historia!"<<endl;
+					return 0;
+	        	} 
+	        	
 					cout<<"\nCapitulo 2:  Encrucijada Musical"<<endl<<endl;
 					cout<<"Despues de experimentar con el primer musico, llegas a una encrucijada musical donde tres caminos se cruzan."<<endl;
 					cout<<"Cual decides tomar?"<<endl<<endl;
@@ -431,7 +437,13 @@ main()
 										break;
 									}	
 						}while(opcion != 1 && opcion != 2 && opcion != 3 && opcion !=4);
-
+			
+							if (experiencia <= 0)
+							{
+					            cout<<"\nTe quedaste sin experiencia ¡Fin de la historia!"<<endl;
+								return 0;
+				        	} 
+	        	
 								cout<<"\nCapitulo 3(Final): El Descubrimiento Final"<<endl<<endl;
 								cout<<"Despues de explorar el camino del genero de musica, llegas a un lugar magico donde la"<<endl;
 								cout<<"musica de todos los caminos se fusiona. Como decides contribuir a esta sinfonia final?"<<endl<<endl;
@@ -479,7 +491,13 @@ main()
 													break;
 												}	
 									}while(opcion != 1 && opcion != 2 && opcion != 3 && opcion !=4);
-									
+												
+										if (experiencia <= 0)
+										{
+								            cout<<"\nTe quedaste sin experiencia ¡Fin de la historia!"<<endl;
+											return 0;
+							        	} 
+	        	
 	cout<<"\nFin de la hirtoria gracias por leer"<<endl;
 			
 	return 0;
